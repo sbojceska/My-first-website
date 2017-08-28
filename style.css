@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*Simplify width and height calculations */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100%;
+}
+
+.topnav{
+	position: fixed;
+	top: 0;
+	background-color: #DDDDDD
+}
+
+.topnav a {
+	float: right;
+	display:inline;
+	color: #001f3f;
+	text-align: center;
+	padding: 1px 3px;
+	text-decoration: none;
+	font-size: 20px
+}
+
+.topnav a:hover {
+	background-color: #CD5C5C;
+	color: #DDDDDD;
+	
+}
+body {
+	color: #4B4B4B;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	background-color: #B3D9CF;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+	max-width: 1000px;
+}
